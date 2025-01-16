@@ -27,7 +27,7 @@ public class Slip16_2 implements ActionListener
 		
 		b1=new JButton("Add");
 		
-		p1=new JPanel(new GridLayout(1,3));
+		p1=new JPanel(new GridLayout(3,2));
 		
 		p1.add(l1);
 		p1.add(l2);
@@ -42,8 +42,9 @@ public class Slip16_2 implements ActionListener
 		b2=new JButton("Search");
 		b3=new JButton("Remove");
 		
-		p2=new JPanel(new GridLayout(1,3));
+		p2=new JPanel(new GridLayout(3,2));
 		
+		p2.add(l3);
 		p2.add(t3);
 		p2.add(b2);
 		p2.add(b3);
@@ -52,9 +53,9 @@ public class Slip16_2 implements ActionListener
 		b2.addActionListener(this);
 		b3.addActionListener(this);
 		
-		f.add(ta);
+		//f.add(ta);
 		f.add(p1);
-		f.add(l3);
+		//f.add(l3);
 		f.add(p2);
 		
 		f.setSize(695,500);
